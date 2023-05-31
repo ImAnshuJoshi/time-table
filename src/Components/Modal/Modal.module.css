@@ -1,0 +1,112 @@
+.modalContainer{
+    position: absolute;
+    height:auto;
+    width:538px;
+    background-color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    z-index: 100;
+    left:400px;
+    margin-top: 380px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header>div>img{
+    cursor: pointer;
+}
+.periodDetails{
+    font-size: 15px;
+    font-weight: bold;
+    width:100%;
+}
+.headingName{
+    font-size: 13px;
+    font-weight: bold;
+}
+.periodName{
+    border-radius: 5px;
+    padding:15px 15px;
+    width:500px;
+    border: 1px solid rgb(179, 179, 179);
+    margin-bottom: 10px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:500px;
+
+}
+.time>div{
+    display: flex;
+    flex-direction: column;
+}
+.time>div>input{
+    width:225px;
+    margin-right: 13px;
+}
+.repeatDays{
+    margin-bottom: 5px;
+}
+.repeatEachDay {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .dayCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #5364FF; 
+    color:white;
+  }
+  .modalFooter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:500px;
+  }
+  .colors{
+    display: flex;
+  }
+  .footerRight{
+    display: flex;
+  }
+  .footerRight>img{
+    height:100%;
+    width: 100%;
+    transform: scale(0.5);
+  }
+  .addPeriodBtn{
+    background-color: #5364FF;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }

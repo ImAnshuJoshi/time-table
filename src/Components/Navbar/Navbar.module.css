@@ -1,0 +1,54 @@
+.NavContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 16;
+    box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding:10px 50px;
+}
+.NavContainer>div>div>span{
+    margin-right: 0.5rem;
+}
+.firstRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin-left: 2rem; */
+}
+.arthshala{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.planning{
+    border-bottom: 3px solid #5364FF;
+}
+.secondRow>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem;
+}
+.secondRow>div>img{
+    margin-right: 0.5rem;
+}
+.thirdRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdRow>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0.7rem;
+}
